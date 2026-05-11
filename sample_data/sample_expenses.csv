@@ -1,0 +1,225 @@
+Date,Amount,Category,Description,PaymentMethod,UserType
+2026-05-11,2900,Food,DMart monthly groceries,UPI,Personal
+2026-05-09,5000,Subscriptions,Microsoft 365 — family,UPI,Institution
+2026-05-09,49300,Salaries,Salary — Accountant,NetBanking,Institution
+2026-05-08,28900,Travel,MakeMyTrip — vacation pkg,UPI,Personal
+2026-05-08,790,Healthcare,Apollo Pharmacy — medicines,NetBanking,Personal
+2026-05-07,4600,Travel,IndiGo flight — Mumbai-Delhi,UPI,Personal
+2026-05-07,2500,Shopping,Amazon — electronics,UPI,Personal
+2026-05-06,3800,Maintenance,Pest control quarterly,Card,Personal
+2026-05-06,620,Food,Zomato — pizza & cola,UPI,Personal
+2026-05-05,9650,Maintenance,Vehicle service — Maruti,Card,Business
+2026-05-04,1600,Travel,Toll — FASTag recharge,Card,Business
+2026-05-04,31800,Salaries,Stipend — interns batch,NetBanking,Business
+2026-05-04,3300,Maintenance,Electrician — wiring fix,Card,Personal
+2026-05-04,840,Utilities,Airtel postpaid mobile,NetBanking,Institution
+2026-05-03,540,Travel,Uber ride — airport,Card,Business
+2026-05-02,3600,Utilities,Electricity bill — Tata Power,NetBanking,Institution
+2026-05-02,16300,Healthcare,Health insurance premium,Cash,Institution
+2026-05-02,2400,Shopping,Lifestyle store,Card,Personal
+2026-05-01,380,Subscriptions,Disney+ Hotstar,Card,Institution
+2026-04-30,1800,Utilities,Jio fiber broadband,UPI,Personal
+2026-04-30,38300,Salaries,Salary — Accountant,BankTransfer,Business
+2026-04-30,5600,Maintenance,Office deep cleaning,Cash,Institution
+2026-04-29,31600,Shopping,Reliance Digital — TV,UPI,Personal
+2026-04-29,2400,Maintenance,Pest control quarterly,Cash,Business
+2026-04-28,5650,Healthcare,Eye checkup + glasses,Card,Institution
+2026-04-28,1000,Utilities,Gas cylinder — Indane,UPI,Personal
+2026-04-27,920,Office Supplies,"Stationery — pens, files",Cash,Institution
+2026-04-26,1000,Utilities,Jio fiber broadband,NetBanking,Business
+2026-04-25,1200,Maintenance,AC servicing — split unit,Cash,Personal
+2026-04-24,1500,Healthcare,Doctor consultation — Practo,UPI,Institution
+2026-04-23,1450,Subscriptions,Disney+ Hotstar,UPI,Personal
+2026-04-22,310,Food,Swiggy order — biryani,UPI,Personal
+2026-04-22,5400,Travel,Air India flight,UPI,Personal
+2026-04-21,11050,Donations,Akshaya Patra meal donation,UPI,Personal
+2026-04-19,134700,Salaries,Salary — Operations manager,BankTransfer,Institution
+2026-04-16,9000,Maintenance,Vehicle service — Maruti,Card,Personal
+2026-04-16,685000,Office Supplies,Capital equipment — server rack,BankTransfer,Business
+2026-04-15,1200,Subscriptions,Disney+ Hotstar,Card,Personal
+2026-04-13,480,Office Supplies,Whiteboard markers + erasers,Card,Business
+2026-04-13,3800,Utilities,Society maintenance,NetBanking,Business
+2026-04-12,1300,Subscriptions,Disney+ Hotstar,Card,Business
+2026-04-10,1250,Healthcare,Dr Lal PathLabs — blood test,NetBanking,Institution
+2026-04-09,5050,Shopping,Myntra — clothing,Card,Personal
+2026-04-09,9450,Healthcare,Hospital admission — diagnostics,Cash,Institution
+2026-04-08,1550,Maintenance,Pest control quarterly,Cash,Business
+2026-04-07,1150,Travel,IRCTC train tickets,NetBanking,Business
+2026-04-06,660,Healthcare,Doctor consultation — Practo,Cash,Personal
+2026-04-06,300,Food,Cafe Coffee Day,UPI,Personal
+2026-04-06,3350,Shopping,Decathlon — sportswear,NetBanking,Personal
+2026-04-06,20100,Healthcare,Health insurance premium,Cash,Institution
+2026-04-05,650,Subscriptions,Netflix premium,UPI,Business
+2026-04-05,25000,Travel,MakeMyTrip — vacation pkg,NetBanking,Personal
+2026-04-04,490,Healthcare,Apollo Pharmacy — medicines,Cash,Institution
+2026-04-04,3400,Subscriptions,Adobe Creative Cloud,UPI,Business
+2026-04-02,520,Education,Udemy — bundle of courses,NetBanking,Personal
+2026-04-02,500,Travel,Metro card recharge,Card,Personal
+2026-04-02,1350,Food,Reliance Smart vegetables,UPI,Personal
+2026-04-02,19250,Healthcare,Health insurance premium,NetBanking,Personal
+2026-04-01,1250,Maintenance,Plumber — leak repair,UPI,Business
+2026-04-01,200,Subscriptions,Spotify family,Card,Personal
+2026-04-01,54800,Education,Engineering tuition fees,Card,Institution
+2026-03-31,3950,Donations,Local temple — annadanam,BankTransfer,Personal
+2026-03-30,5200,Education,Coursera specialization,NetBanking,Personal
+2026-03-29,1450,Shopping,Decathlon — sportswear,NetBanking,Personal
+2026-03-29,510,Food,Swiggy order — biryani,UPI,Personal
+2026-03-29,129700,Salaries,Salary — Operations manager,NetBanking,Institution
+2026-03-28,1100,Subscriptions,GitHub team,Card,Personal
+2026-03-28,11100,Rent,PG room rent,NetBanking,Business
+2026-03-28,8550,Education,Coursera specialization,Card,Institution
+2026-03-27,478800,Salaries,Monthly payroll — Engineering,NetBanking,Business
+2026-03-27,470,Subscriptions,Disney+ Hotstar,Card,Institution
+2026-03-25,510,Subscriptions,Disney+ Hotstar,UPI,Business
+2026-03-24,2400,Utilities,Society maintenance,NetBanking,Institution
+2026-03-22,1050,Subscriptions,Disney+ Hotstar,Card,Business
+2026-03-21,190,Subscriptions,Spotify family,Card,Institution
+2026-03-21,1050,Maintenance,Plumber — leak repair,Card,Business
+2026-03-19,40500,Salaries,Stipend — interns batch,NetBanking,Institution
+2026-03-18,1800,Maintenance,AC servicing — split unit,UPI,Personal
+2026-03-17,770,Food,Zomato — pizza & cola,UPI,Personal
+2026-03-17,5500,Maintenance,Office deep cleaning,Cash,Personal
+2026-03-17,129200,Salaries,Contractor invoice,BankTransfer,Business
+2026-03-16,53600,Salaries,Salary — Accountant,BankTransfer,Business
+2026-03-15,32600,Rent,Monthly apartment rent — 2BHK,NetBanking,Business
+2026-03-15,48000,Rent,Warehouse rent,BankTransfer,Business
+2026-03-15,39000,Travel,MakeMyTrip — vacation pkg,NetBanking,Business
+2026-03-14,240,Food,Cafe Coffee Day,Card,Personal
+2026-03-14,12350,Office Supplies,Office chairs (2 units),NetBanking,Institution
+2026-03-13,180,Subscriptions,YouTube Premium,Card,Business
+2026-03-13,1450,Maintenance,Plumber — leak repair,Card,Institution
+2026-03-12,2950,Shopping,Nykaa — beauty,Card,Personal
+2026-03-12,650,Subscriptions,Netflix premium,Card,Business
+2026-03-10,1500,Subscriptions,Amazon Prime annual,Card,Personal
+2026-03-10,29600,Salaries,Stipend — interns batch,BankTransfer,Business
+2026-03-10,2450,Office Supplies,"Laptop accessories — keyboard, mouse",Cash,Institution
+2026-03-09,14900,Shopping,Amazon — electronics,Card,Personal
+2026-03-09,59800,Education,Coaching — JEE prep,BankTransfer,Personal
+2026-03-08,170,Travel,Ola auto to office,NetBanking,Personal
+2026-03-08,210,Travel,Ola auto to office,Card,Personal
+2026-03-04,3200,Utilities,Electricity bill — Tata Power,UPI,Institution
+2026-03-04,6950,Donations,Akshaya Patra meal donation,NetBanking,Personal
+2026-03-03,2300,Food,DMart monthly groceries,UPI,Personal
+2026-03-03,530,Subscriptions,GitHub team,Card,Personal
+2026-02-28,8850,Donations,PM CARES contribution,NetBanking,Personal
+2026-02-28,2300,Office Supplies,Coffee machine refill,Cash,Institution
+2026-02-27,650,Subscriptions,Netflix premium,Card,Institution
+2026-02-26,1200,Shopping,Decathlon — sportswear,UPI,Personal
+2026-02-26,470,Food,Starbucks coffee,UPI,Personal
+2026-02-25,58800,Shopping,Reliance Digital — TV,Card,Personal
+2026-02-24,3450,Shopping,Decathlon — sportswear,UPI,Personal
+2026-02-24,4400,Donations,Akshaya Patra meal donation,UPI,Institution
+2026-02-24,2100,Food,Restaurant dinner — family,Cash,Personal
+2026-02-24,720,Travel,Uber ride — airport,NetBanking,Business
+2026-02-23,20700,Salaries,Stipend — interns batch,NetBanking,Business
+2026-02-23,110500,Salaries,Salary — Operations manager,BankTransfer,Institution
+2026-02-23,590,Travel,Uber ride — airport,UPI,Business
+2026-02-23,9650,Travel,IndiGo flight — Mumbai-Delhi,Card,Business
+2026-02-17,660,Education,Udemy — bundle of courses,NetBanking,Institution
+2026-02-17,1800,Education,Udemy — bundle of courses,Card,Institution
+2026-02-17,1350,Subscriptions,Zoom Pro,Card,Institution
+2026-02-16,1050,Donations,Local temple — annadanam,NetBanking,Institution
+2026-02-16,5600,Office Supplies,Printer toner cartridges,NetBanking,Institution
+2026-02-14,3450,Subscriptions,Adobe Creative Cloud,Card,Institution
+2026-02-12,50600,Salaries,Salary — Accountant,BankTransfer,Business
+2026-02-12,340,Subscriptions,GitHub team,Card,Personal
+2026-02-10,240,Travel,Ola auto to office,Card,Business
+2026-02-10,950000,Donations,Disaster relief — flood response,BankTransfer,Institution
+2026-02-09,3900,Donations,Akshaya Patra meal donation,NetBanking,Personal
+2026-02-08,840,Office Supplies,Whiteboard markers + erasers,Cash,Institution
+2026-02-07,35800,Salaries,Salary — Field officer,BankTransfer,Institution
+2026-02-05,910,Healthcare,Dr Lal PathLabs — blood test,UPI,Institution
+2026-02-04,690,Food,Starbucks coffee,UPI,Personal
+2026-02-04,520,Food,Starbucks coffee,Card,Personal
+2026-02-04,11600,Donations,Akshaya Patra meal donation,NetBanking,Institution
+2026-02-03,3000,Food,Big Bazaar groceries,UPI,Personal
+2026-01-31,590,Healthcare,Apollo Pharmacy — medicines,UPI,Institution
+2026-01-31,10100,Travel,Air India flight,Card,Personal
+2026-01-31,3950,Food,DMart monthly groceries,UPI,Personal
+2026-01-30,2100,Travel,IRCTC train tickets,Card,Business
+2026-01-29,2850,Maintenance,Pest control quarterly,Cash,Personal
+2026-01-28,8400,Travel,Air India flight,Card,Business
+2026-01-27,690,Food,Swiggy order — biryani,Cash,Personal
+2026-01-27,180,Subscriptions,YouTube Premium,UPI,Business
+2026-01-27,400,Food,Swiggy order — biryani,Card,Personal
+2026-01-27,180,Subscriptions,Spotify family,Card,Personal
+2026-01-26,27200,Salaries,Stipend — interns batch,NetBanking,Business
+2026-01-26,280,Travel,Ola auto to office,UPI,Business
+2026-01-26,27900,Education,BYJU's annual subscription,Card,Institution
+2026-01-25,1050,Food,Reliance Smart vegetables,UPI,Personal
+2026-01-24,1850,Healthcare,Dr Lal PathLabs — blood test,UPI,Institution
+2026-01-24,3300,Office Supplies,Printer toner cartridges,NetBanking,Institution
+2026-01-24,6100,Shopping,Lifestyle store,UPI,Personal
+2026-01-24,285000,Subscriptions,Annual office license — bulk renewal,NetBanking,Business
+2026-01-23,39100,Rent,Monthly apartment rent — 2BHK,NetBanking,Business
+2026-01-22,6700,Shopping,Croma — headphones,Card,Personal
+2026-01-22,2750,Maintenance,Pest control quarterly,UPI,Personal
+2026-01-21,38400,Salaries,Contractor invoice,BankTransfer,Business
+2026-01-21,3650,Shopping,Decathlon — sportswear,NetBanking,Personal
+2026-01-21,390400,Salaries,Monthly payroll — Engineering,BankTransfer,Business
+2026-01-18,4900,Subscriptions,Microsoft 365 — family,UPI,Personal
+2026-01-18,370,Food,Haldiram's snacks,Card,Personal
+2026-01-17,9100,Travel,IndiGo flight — Mumbai-Delhi,UPI,Business
+2026-01-17,2550,Shopping,Myntra — clothing,Card,Personal
+2026-01-15,41200,Rent,Office space rent — co-working,BankTransfer,Personal
+2026-01-14,8150,Donations,Smile Foundation — education,NetBanking,Personal
+2026-01-14,5100,Utilities,Society maintenance,NetBanking,Personal
+2026-01-12,93800,Rent,Warehouse rent,NetBanking,Business
+2026-01-11,200400,Salaries,Monthly payroll — Engineering,NetBanking,Business
+2026-01-11,970,Travel,Uber ride — airport,NetBanking,Personal
+2026-01-09,425000,Healthcare,Emergency medical airlift,Card,Personal
+2026-01-08,1500,Subscriptions,Amazon Prime annual,UPI,Personal
+2026-01-07,3700,Office Supplies,"Laptop accessories — keyboard, mouse",Card,Institution
+2026-01-07,2600,Travel,IRCTC train tickets,UPI,Business
+2026-01-06,1950,Food,DMart monthly groceries,UPI,Personal
+2026-01-05,2400,Healthcare,Dr Lal PathLabs — blood test,UPI,Institution
+2026-01-05,190,Subscriptions,Spotify family,UPI,Business
+2026-01-05,860,Healthcare,Apollo Pharmacy — medicines,NetBanking,Institution
+2026-01-02,4600,Food,Big Bazaar groceries,UPI,Personal
+2026-01-01,5250,Subscriptions,Microsoft 365 — family,Card,Business
+2025-12-30,3350,Office Supplies,Printer toner cartridges,Cash,Business
+2025-12-26,9050,Office Supplies,Office chairs (2 units),NetBanking,Institution
+2025-12-25,10250,Maintenance,Vehicle service — Maruti,UPI,Personal
+2025-12-23,3850,Donations,Local temple — annadanam,UPI,Institution
+2025-12-23,35600,Travel,MakeMyTrip — vacation pkg,Card,Business
+2025-12-23,810,Maintenance,Electrician — wiring fix,Cash,Business
+2025-12-21,1700,Maintenance,Plumber — leak repair,UPI,Business
+2025-12-21,2500,Travel,IRCTC train tickets,NetBanking,Business
+2025-12-21,5700,Utilities,Society maintenance,UPI,Personal
+2025-12-21,5350,Utilities,Society maintenance,UPI,Business
+2025-12-19,4700,Utilities,Electricity bill — Tata Power,NetBanking,Personal
+2025-12-16,590,Maintenance,Plumber — leak repair,Cash,Personal
+2025-12-14,2400,Maintenance,Pest control quarterly,UPI,Business
+2025-12-14,43900,Rent,Monthly apartment rent — 2BHK,NetBanking,Personal
+2025-12-13,53800,Education,School term fees,BankTransfer,Institution
+2025-12-13,570,Food,Local kirana store,Cash,Personal
+2025-12-11,63700,Salaries,Salary — Field officer,BankTransfer,Institution
+2025-12-11,11950,Shopping,Croma — headphones,NetBanking,Personal
+2025-12-10,920,Travel,Uber ride — airport,UPI,Personal
+2025-12-08,5600,Maintenance,Vehicle service — Maruti,Cash,Institution
+2025-12-07,77900,Salaries,Salary — Program coordinator,BankTransfer,Business
+2025-12-04,3600,Shopping,Decathlon — sportswear,Card,Personal
+2025-12-02,530,Food,Cafe Coffee Day,UPI,Personal
+2025-12-01,2750,Shopping,Lifestyle store,UPI,Personal
+2025-11-30,68200,Education,School term fees,NetBanking,Institution
+2025-11-30,133000,Salaries,Salary — Operations manager,NetBanking,Institution
+2025-11-30,520,Food,Starbucks coffee,Card,Personal
+2025-11-30,1350,Healthcare,Doctor consultation — Practo,Card,Personal
+2025-11-30,8450,Maintenance,Generator diesel + service,Cash,Business
+2025-11-29,4950,Education,Coursera specialization,Card,Institution
+2025-11-29,40700,Education,Engineering tuition fees,BankTransfer,Personal
+2025-11-28,7100,Maintenance,Vehicle service — Maruti,Cash,Business
+2025-11-27,19600,Healthcare,Health insurance premium,Card,Personal
+2025-11-25,3900,Subscriptions,Adobe Creative Cloud,UPI,Institution
+2025-11-25,6350,Donations,Akshaya Patra meal donation,NetBanking,Institution
+2025-11-25,3300,Donations,CRY — child welfare donation,NetBanking,Institution
+2025-11-23,67300,Education,Engineering tuition fees,BankTransfer,Institution
+2025-11-23,11050,Office Supplies,Office chairs (2 units),Cash,Institution
+2025-11-23,3700,Shopping,Amazon — electronics,UPI,Personal
+2025-11-22,650,Food,Reliance Smart vegetables,UPI,Personal
+2025-11-21,1800,Maintenance,Pest control quarterly,Cash,Personal
+2025-11-20,290,Food,Cafe Coffee Day,UPI,Personal
+2025-11-18,15150,Rent,PG room rent,NetBanking,Business
+2025-11-15,1800,Maintenance,AC servicing — split unit,UPI,Personal
+2025-11-14,5000,Subscriptions,Microsoft 365 — family,Card,Business
+2025-11-12,270,Food,Cafe Coffee Day,Cash,Personal

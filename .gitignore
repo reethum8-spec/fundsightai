@@ -1,0 +1,33 @@
+# Node
+node_modules/
+dist/
+build/
+.vite/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# AI artifacts
+ai_models/data/*.csv
+ai_models/models/*.joblib
+ai_models/models/*.pkl
+
+# OS
+Thumbs.db
