@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FundSight AI
 
 > AI-Powered Fund Utilization & Financial Intelligence Platform
@@ -117,3 +118,7 @@ USE_MOCK=true
 - **DB / Auth** → Supabase
 
 See `docs/DEPLOYMENT.md` for full instructions.
+=======
+# fundsightai
+
+>>>>>>> 29f6ed5d4279f4e2b1a62b6a9afc4ea4229a71a9
