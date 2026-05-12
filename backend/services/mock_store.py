@@ -22,70 +22,71 @@ _AUDIT: list[dict] = []
 
 # Six programs totalling ₹2 Cr — mirrors the frontend `demoFunds` exactly so
 # live-mode (API-backed) renders the same KPIs as the mock fallback.
+# Updated to reflect overspending scenario (spent > budget).
 _FUNDS: list[dict] = [
     {
         "id": "f-edu", "project_name": "Rural Education Initiative", "category": "Education",
-        "budget": 56_00_000, "spent": 33_60_000, "beneficiaries_count": 5200,
+        "budget": 56_00_000, "spent": 68_20_000, "beneficiaries_count": 5200,
         "expected_impact": "Reach 5,200 students across 24 villages",
         "deadline": "2026-12-31",
         "created_at": (datetime.utcnow() - timedelta(days=150)).isoformat(),
     },
     {
         "id": "f-hlt", "project_name": "Mobile Health Clinics", "category": "Healthcare",
-        "budget": 42_00_000, "spent": 26_10_000, "beneficiaries_count": 11_800,
+        "budget": 42_00_000, "spent": 51_30_000, "beneficiaries_count": 11_800,
         "expected_impact": "Provide care to 12k patients across rural districts",
         "deadline": "2026-09-30",
         "created_at": (datetime.utcnow() - timedelta(days=120)).isoformat(),
     },
     {
         "id": "f-ops", "project_name": "Field Operations", "category": "Operations",
-        "budget": 32_00_000, "spent": 21_40_000, "beneficiaries_count": 0,
+        "budget": 32_00_000, "spent": 41_80_000, "beneficiaries_count": 0,
         "expected_impact": "Logistics + field-staff coordination across regions",
         "deadline": "2026-12-31",
         "created_at": (datetime.utcnow() - timedelta(days=140)).isoformat(),
     },
     {
         "id": "f-rnd", "project_name": "Curriculum R&D", "category": "R&D",
-        "budget": 26_00_000, "spent": 14_80_000, "beneficiaries_count": 0,
+        "budget": 26_00_000, "spent": 31_40_000, "beneficiaries_count": 0,
         "expected_impact": "Develop bilingual STEM curriculum for grades 6–10",
         "deadline": "2026-11-30",
         "created_at": (datetime.utcnow() - timedelta(days=110)).isoformat(),
     },
     {
         "id": "f-out", "project_name": "Community Outreach", "category": "Outreach",
-        "budget": 24_00_000, "spent": 14_70_000, "beneficiaries_count": 8_400,
+        "budget": 24_00_000, "spent": 28_90_000, "beneficiaries_count": 8_400,
         "expected_impact": "Awareness drives reaching 8,400+ households",
         "deadline": "2026-12-31",
         "created_at": (datetime.utcnow() - timedelta(days=100)).isoformat(),
     },
     {
         "id": "f-oth", "project_name": "Administration & Compliance", "category": "Other",
-        "budget": 20_00_000, "spent":  7_90_000, "beneficiaries_count": 0,
+        "budget": 20_00_000, "spent": 16_90_000, "beneficiaries_count": 0,
         "expected_impact": "Statutory filings, audits and overhead",
         "deadline": "2026-12-31",
         "created_at": (datetime.utcnow() - timedelta(days=160)).isoformat(),
     },
 ]
 
-# Recent expense ledger (~₹6.4 L across last 7 days) — matches frontend's
+# Recent expense ledger (~₹12.8 L across last 7 days) — matches frontend's
 # `recentExpenses`. Charged against the larger fund balances above.
 _EXPENSES: list[dict] = [
-    {"id": "e1", "fund_id": "f-edu", "amount": 3_60_000, "category": "Salaries",
-     "date": "2026-05-08", "description": "May payroll — Field staff (8 people)",
+    {"id": "e1", "fund_id": "f-edu", "amount": 7_20_000, "category": "Salaries",
+     "date": "2026-05-08", "description": "May payroll — Field staff (16 people)",
      "payment_method": "bank_transfer", "location": "HQ",       "anomaly_flag": False},
-    {"id": "e2", "fund_id": "f-out", "amount":   42_000, "category": "Travel",
-     "date": "2026-05-07", "description": "Field visit — Region 4 (3 staff)",
+    {"id": "e2", "fund_id": "f-out", "amount":   84_000, "category": "Travel",
+     "date": "2026-05-07", "description": "Field visit — Region 4 (6 staff)",
      "payment_method": "card",          "location": "Region 4", "anomaly_flag": True},
-    {"id": "e3", "fund_id": "f-rnd", "amount":   78_400, "category": "Equipment",
-     "date": "2026-05-06", "description": "Laptop replacement — Programs team",
+    {"id": "e3", "fund_id": "f-rnd", "amount":  1_56_800, "category": "Equipment",
+     "date": "2026-05-06", "description": "Laptop replacements — Programs team",
      "payment_method": "card",          "location": "HQ",       "anomaly_flag": False},
-    {"id": "e4", "fund_id": "f-oth", "amount":   17_600, "category": "Subscriptions",
+    {"id": "e4", "fund_id": "f-oth", "amount":   35_200, "category": "Subscriptions",
      "date": "2026-05-05", "description": "Analytics & CRM monthly",
      "payment_method": "card",          "location": "HQ",       "anomaly_flag": False},
-    {"id": "e5", "fund_id": "f-out", "amount":   51_200, "category": "Marketing",
+    {"id": "e5", "fund_id": "f-out", "amount":  1_02_400, "category": "Marketing",
      "date": "2026-05-04", "description": "Awareness campaign — Print",
      "payment_method": "card",          "location": "Region 2", "anomaly_flag": True},
-    {"id": "e6", "fund_id": "f-ops", "amount":   92_400, "category": "Operations",
+    {"id": "e6", "fund_id": "f-ops", "amount":  1_84_800, "category": "Operations",
      "date": "2026-05-03", "description": "Vehicle fuel + maintenance",
      "payment_method": "upi",           "location": "Field",    "anomaly_flag": False},
 ]
