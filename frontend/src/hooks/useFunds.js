@@ -2,26 +2,23 @@
  * Hybrid data layer for projects/funds.
  *  - Reads: Supabase JS in live mode (RLS-enforced); mock store via Flask in mock mode.
  *  - Writes: always through Flask (validation + auth + audit hooks).
+ *
+ * TEMPORARY: Disabled API fetching to use mock data permanently.
  */
 import { useCallback } from 'react'
 import { supabase, USE_MOCK } from '@/lib/supabaseClient'
 import { api } from '@/lib/api'
 import { useResource } from './useResource'
+import { demoFunds } from '@/lib/mockData'
 
 const REAL = !!supabase && !USE_MOCK
 
-// Local fallback used only when backend is unreachable in mock mode,
-// so the UI keeps working frontend-only.
-const LOCAL_FUNDS = [
-  { id: 'f-edu-001', project_name: 'Rural Education Initiative', category: 'Education', budget: 320000, beneficiaries_count: 5000, deadline: '2026-12-31', spent: 184000, created_at: new Date().toISOString() },
-  { id: 'f-hlt-002', project_name: 'Mobile Health Clinics',      category: 'Healthcare', budget: 240000, beneficiaries_count: 12000, deadline: '2026-09-30', spent: 142500, created_at: new Date().toISOString() },
-  { id: 'f-ops-003', project_name: 'Operations 2026',            category: 'Operations', budget: 180000, beneficiaries_count: 0, deadline: '2026-12-31', spent: 96000, created_at: new Date().toISOString() },
-  { id: 'f-rnd-004', project_name: 'R&D Pilots',                  category: 'R&D',        budget: 150000, beneficiaries_count: 0, deadline: '2026-10-31', spent: 71000, created_at: new Date().toISOString() },
-  { id: 'f-out-005', project_name: 'Community Outreach',          category: 'Outreach',   budget: 110000, beneficiaries_count: 8000, deadline: '2026-11-30', spent: 49000, created_at: new Date().toISOString() },
-  { id: 'f-mkt-006', project_name: 'Awareness Campaigns',         category: 'Marketing',  budget: 60000, beneficiaries_count: 0, deadline: '2026-12-31', spent: 24000, created_at: new Date().toISOString() },
-]
-
 async function fetchFunds() {
+  // TEMPORARY: Always return mock data to prevent API overrides
+  return demoFunds
+  
+  // Original API fetching logic (disabled):
+  /*
   if (REAL) {
     const { data, error } = await supabase
       .from('projects')
@@ -37,6 +34,7 @@ async function fetchFunds() {
     if (e?.status === undefined) return LOCAL_FUNDS
     throw e
   }
+  */
 }
 
 export function useFunds() {
