@@ -1,17 +1,12 @@
 import { useCallback } from 'react'
 import { supabase, USE_MOCK } from '@/lib/supabaseClient'
 import { api } from '@/lib/api'
-import { heatmapExpenses, recentExpenses } from '@/lib/mockData'
+import { heatmapExpenses } from '@/lib/mockData'
 import { useResource } from './useResource'
 
 const REAL = !!supabase && !USE_MOCK
 
 async function fetchExpenses(filters = {}) {
-  // TEMPORARY: Always return mock data to prevent API overrides
-  return recentExpenses
-  
-  // Original API fetching logic (disabled):
-  /*
   if (REAL) {
     let q = supabase.from('expenses').select('*').order('occurred_at', { ascending: false })
     if (filters.category) q = q.eq('category', filters.category)
@@ -27,7 +22,6 @@ async function fetchExpenses(filters = {}) {
     if (e?.status === undefined) return heatmapExpenses
     throw e
   }
-  */
 }
 
 export function useExpenses(filters = {}) {

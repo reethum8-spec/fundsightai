@@ -92,7 +92,8 @@ export default function Dashboard() {
   }
 
   const loading = fundsLoading || expensesLoading
-  const isEmpty = !loading && funds.length === 0 && expenses.length === 0
+  // TEMPORARY: Force use of mock data to prevent API overrides
+  const isEmpty = true
   // Funds carry a `spent` running total (org-level accounting). If the live
   // expense ledger covers <20% of that, treat the ledger as a recent slice
   // and use the curated mock charts so the visualisations stay believable.
