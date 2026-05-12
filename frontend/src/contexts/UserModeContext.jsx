@@ -10,10 +10,8 @@ import { USE_MOCK } from '@/lib/supabaseClient'
  *  - business     → Office / Business (departments, projects, ops efficiency)
  *  - institution  → Institution / NGO (allocation, beneficiaries, transparency, impact)
  *
- * Persistence: sessionStorage (not localStorage) so the workspace picker is
- * shown again on every fresh login. Within a single tab session the choice
- * survives page refresh and SPA navigation. The mode is also explicitly
- * reset whenever the authenticated user id changes (login / logout / switch).
+ * Persistence: localStorage for reliable persistence across sessions and navigation.
+ * The mode is reset on explicit logout only, not on page navigation or refresh.
  */
 const STORAGE_KEY = 'fs-user-mode'
 export const USER_MODES = ['personal', 'business', 'institution']
@@ -25,40 +23,29 @@ export function UserModeProvider({ children }) {
 
   const [mode, setModeState] = useState(() => {
     try {
-      const v = sessionStorage.getItem(STORAGE_KEY)
+      const v = localStorage.getItem(STORAGE_KEY)
       return USER_MODES.includes(v) ? v : null
     } catch {
       return null
     }
   })
 
-  // Persist within the tab session only.
+  // Persist across sessions.
   useEffect(() => {
     try {
-      if (mode) sessionStorage.setItem(STORAGE_KEY, mode)
-      else sessionStorage.removeItem(STORAGE_KEY)
+      if (mode) localStorage.setItem(STORAGE_KEY, mode)
+      else localStorage.removeItem(STORAGE_KEY)
     } catch { /* ignore */ }
   }, [mode])
 
-  // Clear stale legacy localStorage entry left from older builds — otherwise
-  // returning users keep auto-skipping the picker.
+  // Reset the mode on explicit logout only (user becomes null).
+  // Do not reset on user ID changes or navigation.
   useEffect(() => {
-    try { localStorage.removeItem(STORAGE_KEY) } catch { /* ignore */ }
-  }, [])
-
-  // Reset the workspace selection on every auth transition (login, logout,
-  // account switch) so the picker always greets a freshly authenticated user.
-  // Only do this in real mode — mock mode has unstable user IDs.
-  const lastUserId = useRef(user?.id ?? null)
-  useEffect(() => {
-    if (USE_MOCK) return  // Skip in mock mode to prevent resetting on navigation
-    const currentId = user?.id ?? null
-    if (currentId !== lastUserId.current) {
-      lastUserId.current = currentId
+    if (user === null) {
       setModeState(null)
-      try { sessionStorage.removeItem(STORAGE_KEY) } catch { /* ignore */ }
+      try { localStorage.removeItem(STORAGE_KEY) } catch { /* ignore */ }
     }
-  }, [user?.id])
+  }, [user])
 
   const setMode = useCallback((m) => {
     if (USER_MODES.includes(m)) setModeState(m)
