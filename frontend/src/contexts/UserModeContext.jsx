@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useState, useCallback, useRef } from 'react'
 import { useAuth } from './AuthContext'
+import { USE_MOCK } from '@/lib/supabaseClient'
 
 /**
  * Three usage modes for FundSight AI. Each mode swaps the dashboard layout,
@@ -47,8 +48,10 @@ export function UserModeProvider({ children }) {
 
   // Reset the workspace selection on every auth transition (login, logout,
   // account switch) so the picker always greets a freshly authenticated user.
+  // Only do this in real mode — mock mode has unstable user IDs.
   const lastUserId = useRef(user?.id ?? null)
   useEffect(() => {
+    if (USE_MOCK) return  // Skip in mock mode to prevent resetting on navigation
     const currentId = user?.id ?? null
     if (currentId !== lastUserId.current) {
       lastUserId.current = currentId
